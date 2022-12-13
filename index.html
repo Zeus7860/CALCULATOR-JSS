@@ -1,0 +1,58 @@
+<!DOCTYPE html><!--created by ZEUS*//*created by ZEUS*//*created by ZEUS*/-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <form>
+    <div id="calculator">
+        <!-- Screen and clear key -->
+        <div class="top">
+            <input id="output" placeholder="first after change"/>
+            <input id="output1"  placeholder="second after change"/>
+            <span><input id="clear" type="reset" value="c" /></span>
+            <p>......................................................</p>
+            <div><input id="screen1" type="number" placeholder="first value"/></div>
+            <div><input id="screen2" type="number" placeholder="second value"></div>
+<p>..........................................................................</p>
+<center><p>"BASIC CALCULATION"</p></center>
+        </div>
+
+        <div class="keys">
+            <!-- operators and other keys -->
+
+            <span class="operator" onclick="add()">+</span>
+            <span class="operator" onclick="sub()">-</span>
+            <span class="operator" onclick="div()">÷</span>
+            <span class="operator" onclick="mul()">x</span>
+        </div>
+        <div class="keys">
+            <!--from here complex calculation operator is in use-->
+            <center><p>"complex calcUlation part is from here"</p></center>
+            <p>..........................................................................</p>
+            <span class="operator" onclick="inc()">+ +</span>
+            <span class="operator" onclick="dec()">- -</span>
+            <span class="operator" onclick="pow()">* *</span>
+            <span class="operator" onclick="equ()">=</span>
+            <span class="operator" onclick="plusequ()">+ =</span>
+            <span class="operator" onclick="subequ()">- =</span>
+            <span class="operator" onclick="mulequ()">* =</span>
+            <span class="operator" onclick="divequ()">/ =</span>
+            <span class="operator" onclick="floorequ()">% =</span>
+            <span class="operator" onclick="powequ()">* * =</span>
+            <span class="operator" onclick="smallequ()">< < =</span>
+            <span class="operator" onclick="greatequ()">> > =</span>
+            <span class="operator" onclick="and()">& =</span>
+            <span class="operator" onclick="xor()">^ =</span>
+            <span class="operator" onclick="or()">| =</span>
+            <span class="operator" onclick="logand()">& & =</span>
+            <span class="operator" onclick="lognull()">? ? =</span>
+            <span class="operator" onclick="logor()">| | =</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</form>
+</body>
+</html>
