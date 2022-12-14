@@ -86,9 +86,13 @@ function plusequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a+=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b+=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+        element.innerHTML = "here basically the operation is'a=a+b' & 'b=b+a':";
 }
 
 function subequ(){
@@ -96,9 +100,13 @@ function subequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a-=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b-=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a-b' & 'b=b-a':";
 }
 
 function mulequ(){
@@ -106,18 +114,26 @@ function mulequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a*=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b*=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a*b' & 'b=b*a':";
 }
 function divequ(){
     var a,b,c,d;
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a/=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b/=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a/b' & 'b=b/a':";
 }
 
 function floorequ(){
@@ -125,9 +141,13 @@ function floorequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a%=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b%=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a%b' & 'b=b%a':";
 }
 
 function powequ(){
@@ -135,9 +155,13 @@ function powequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a**=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b**=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a**b' & 'b=b**a':";
 }
 
 function smallequ(){
@@ -145,9 +169,13 @@ function smallequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a<<b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b<<a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is it shift binary value to right";   
 }
 
 function greatequ(){
@@ -155,9 +183,13 @@ function greatequ(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a>>b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b>>a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a>>b' & 'b=b>>a': it shift binary value to right";
 }
 
 function and(){
@@ -165,9 +197,13 @@ function and(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a&=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b&=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a&b' & 'b=b&a': it does bitwise AND operation on binary value";
 }
 
 function xor(){
@@ -175,9 +211,13 @@ function xor(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a^=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b^=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a^b' & 'b=b^a': it does bitwise XOR operation on binary value";
 }
 
 function or(){
@@ -185,9 +225,13 @@ function or(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a|=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b|=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a|b' & 'b=b|a': it does bitwise OR operation on binary value";
 }
 
 function logand(){
@@ -195,9 +239,13 @@ function logand(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a&&=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b&&=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a&&b' & 'b=b&&a': FIRST VALUE IS OTHER THAN 0 SECOND VALUE IS ASSIGNED";
 }
 
 function lognull(){
@@ -205,9 +253,13 @@ function lognull(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a??=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b??=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a??b' & 'b=b??a': THE FIRST VALUE IS UNDEFINE OR NULL SECOND VALUE ASSIGN";
 }
 
 function logor(){
@@ -215,9 +267,13 @@ function logor(){
      a=parseInt(document.getElementById("screen1").value);
      b=parseInt(document.getElementById("screen2").value);
      c=(a||=b);
+     a=parseInt(document.getElementById("screen1").value);
+     b=parseInt(document.getElementById("screen2").value);
      d=(b||=a);
      document.getElementById("output").value =c;
      document.getElementById("output1").value =d;
+     var element = document.getElementById("detail");
+     element.innerHTML = "here basically the operation is'a=a||b' & 'b=b||a': THE FIRST VALUE IS NOT ZERO SECOND VALUE NOT ASSIGNED";
 }
 
 /*created by ZEUS*//*created by ZEUS*//*created by ZEUS*//*created by ZEUS*/
